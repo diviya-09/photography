@@ -1,0 +1,29 @@
+style{
+    background-color:grey;
+}
+div {
+    background-color: lightgrey;
+    width: 150px;
+    border: 15px slategray;
+    padding: 50px;
+    margin: 20px;
+    height: 150px;
+  }
+img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.wrapper {
+    padding: 0 15px; 
+    /* top to bottom padding */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+.into {
+    flex: 1;
+}
